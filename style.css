@@ -3,6 +3,13 @@ header{
     background-image: linear-gradient(to top,white,deepskyblue);
     padding: 7px;
     margin: -8px;
+    
+}
+header>img{
+    width: 200px;
+    height:200px ;
+    display: block;
+    text-align: center;
 }
 header>h1{
     text-align: center;
