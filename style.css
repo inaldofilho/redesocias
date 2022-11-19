@@ -12,6 +12,7 @@ header>img{
     text-align: center;
 }
 header>h1{
+    
     text-align: center;
     text-shadow: 10px 10px 6px  rgba(0, 0, 0, 0.438);
     
@@ -33,30 +34,17 @@ nav>a:hover{
     border-radius: 20px;
     
 }
-section{
-    padding: 10px;
-    background-color: deepskyblue;
-    margin-top: 15px;
-    width: 400px;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 1px 3px 3px 5px rgba(0, 0, 0, 0.164);
-    display: inline-block;
-    margin-left: 20px;
-    text-align: center;
-
+main>h1{
+    color: white;
 }
-section>h1{
-    text-align: center;
-    color:white;
-}
-section>p{
+main>p{
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
     
 }
 a{
+    color: white;
     text-decoration: none;
     font-size:18px ;
 }
@@ -65,24 +53,38 @@ a:hover{
     background-color: aqua;
     padding: 5px;
     border-radius: 10px;
+    color: black;
 }
 div{
     margin: auto;
     width: 100px;
 }
+
 main{
-    
+    background-color: cornflowerblue;
     padding: 10px;
-    background-color: rgb(206, 203, 203);
     margin-top: 15px;
     width: 400px;
     height: 350px;
     border-radius: 20px;
     box-shadow: 1px 3px 3px 5px rgba(0, 0, 0, 0.164);
-    display: inline-block;
     margin-left: 20px;
     text-align: center;
+    
 }
+section{
+    padding: 10px;
+    
+    margin-top: 15px;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    
+    margin-left: 20px;
+    text-align: center;
+    display: inline-table;
+}
+
 img{
     border-radius: 20px;
     width: 400px;
@@ -99,12 +101,16 @@ footer{
 }
 footer>h1{
     text-align: center;
-    color: white;
+    
 }
 footer>p{
     text-align: justify;
     padding: 10px;
 }
 footer>h4{
+    text-align: center;
+}
+.tab{
+    display: inline-block;
     text-align: center;
 }
